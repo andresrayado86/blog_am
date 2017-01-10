@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin-top: 20px;
+	
+}
+
+.contenedor {
+	width: 1200px;
+	margin: 2px auto;
+	height: 60px;
+}
+
+.caja {
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+.caja-chica {
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+.caja-mini {
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+#logo {
+	font-family: 'Russo One', sans-serif;
+	color: #167AC6;
+	font-size: 30px;
+	float: left;
+	text-decoration: none;
+}
+
+#logo:hover {
+	color: #314A9E;
+}
+
+.carrito {
+	width: 42px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.registro {
+	text-decoration: none;
+	font-family: 'Play', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #314A9E;
+	position: relative;
+	top: 10px;
+	left: 5px;
+}
+
+.registro:hover {
+	color: #4E4C31;
+}
+
+.divisor {
+	border: solid black 1px;
+	margin: 0;
+}
+
+#navbar {
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	-webkit-box-shadow: inset 0px 0px 41px 0px rgba(2,4,33,1);
+	-moz-box-shadow: inset 0px 0px 41px 0px rgba(2,4,33,1);
+	box-shadow: inset 0px 0px 41px 0px rgba(2,4,33,1);
+}
