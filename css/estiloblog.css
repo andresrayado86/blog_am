@@ -71,7 +71,7 @@ body {
 }
 
 .divisor {
-	border: solid black 1px;
+	border: solid gray 1px;
 	margin: 0;
 }
 
@@ -82,4 +82,14 @@ body {
 	-webkit-box-shadow: inset 0px 0px 41px 0px rgba(2,4,33,1);
 	-moz-box-shadow: inset 0px 0px 41px 0px rgba(2,4,33,1);
 	box-shadow: inset 0px 0px 41px 0px rgba(2,4,33,1);
+}
+
+.nav-item {
+	width: 12%;
+}
+
+.item {
+	font-family: 'Play', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
 }
